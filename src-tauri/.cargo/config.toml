@@ -1,0 +1,14 @@
+# Ensure consistent macOS deployment target across devs and CI
+
+# Apple Silicon (arm64) requires >= 11.0 and std::filesystem also needs >= 10.15
+[target.aarch64-apple-darwin.env]
+MACOSX_DEPLOYMENT_TARGET = "11.0"
+CMAKE_OSX_DEPLOYMENT_TARGET = "11.0"
+# Also pass through to the cmake crate explicitly (affects llama-cpp-sys)
+CMAKE_ARGS = "-DCMAKE_OSX_DEPLOYMENT_TARGET=11.0"
+
+# Intel Macs can target 10.15+ (Catalina) for std::filesystem
+[target.x86_64-apple-darwin.env]
+MACOSX_DEPLOYMENT_TARGET = "10.15"
+CMAKE_OSX_DEPLOYMENT_TARGET = "10.15"
+CMAKE_ARGS = "-DCMAKE_OSX_DEPLOYMENT_TARGET=10.15"

@@ -1,0 +1,66 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore models directory and all .gguf files
+models/
+*.gguf
+
+WARP.md
+
+# Rust/Tauri build artifacts
+src-tauri/target/
+
+# Environment files (do not commit secrets)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Local AI assistant configs
+.claude/
+
+# Coverage and tooling caches
+coverage/
+.nyc_output/
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+
+# Databases, dumps, and backups
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+*.bak
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS-specific
+Thumbs.db
+
+
+
