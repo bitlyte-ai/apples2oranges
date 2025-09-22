@@ -181,6 +181,7 @@ npm run tauri dev
 ### Phase 1: Cross-Platform Expansion 🌐
 - **Linux Support**
 - **Windows Support**
+  (start to follow!)
 
 ### Phase 2: Model Support Enhancement 🧠
 - **Multimodal Models**: Vision and audio model support
