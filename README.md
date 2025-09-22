@@ -1,3 +1,12 @@
+<h1 align="center">
+  <br>
+  <a><img src="app-icon.png" alt="apples2oranges" width="200"></a>
+  <br>
+  apples2oranges
+  <br>
+</h1>
+
+![screenshot](demo-screenshot.png)
 # 🍎➡️🍊 apples2oranges
 
 ### LLM Comparison Playground for Small Language Models and On-Device AI
@@ -58,13 +67,17 @@ This is an early release. There will be many bugs and performance issues to solv
 - **Multi-session Analysis**: Compare up to 7 sessions simultaneously with advanced visualizations. We will be improving these with more useful visualizations.
 - **3D Data Exploration**: Scatter plots, radar charts, parallel coordinates, and bubble charts
 
-### 🍎 Apple Silicon Telemetry
-- **Three-tier P-core/E-core Detection**: Dynamic detection using macOS sysctl APIs
-- **Per-core Temperature Monitoring**: Individual P-core and E-core temperature tracking
-- **Sudoless Monitoring**: Hardware telemetry without elevated permissions via `macmon`
-- **Power Analysis**: Detailed CPU, GPU, and ANE (Apple Neural Engine) power consumption
+### Telemetry 
+We current expose:
+- RAM 
+- Per core CPU utilization
+- Per sensor CPU temperature
+- GPU utilization / temparature
+- TPS
+- Power and energy usage
 
-(We will be making apples2oranges compatible with windows!)
+and charts that help you visualise relationships over time.
+
 
 ### 🔧 Developer-Friendly Features
 - **GGUF Model Support**: Works with any GGUF format model
@@ -77,7 +90,7 @@ This is an early release. There will be many bugs and performance issues to solv
 
 ### Prerequisites
 
-- **macOS 11+** (Apple Silicon preferred for full feature support)
+- **macOS 11+** (Apple Silicon preferred for full feature support, we will be adding Windows support)
 - **Node.js** 18+ and npm
 - **Rust** 1.77.2+
 - **GGUF Models** - Download your favorite models in GGUF format
@@ -110,7 +123,8 @@ This is an early release. There will be many bugs and performance issues to solv
    ```bash
    npm run tauri build
    ```
-   
+   Please note we currently recommend running the developer version instead.
+
    The built app will be in `src-tauri/target/release/bundle/macos/apples2oranges.app`
 
 6. **First Launch (macOS Gatekeeper)**
