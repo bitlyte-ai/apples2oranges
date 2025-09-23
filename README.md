@@ -123,7 +123,7 @@ and charts that help you visualise relationships over time.
    ```bash
    npm run tauri build
    ```
-   Please note we currently recommend running the developer version instead.
+   Please note we currently recommend running the developer version instead as it has access to more features.
 
    The built app will be in `src-tauri/target/release/bundle/macos/apples2oranges.app`
 
