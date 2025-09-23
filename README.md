@@ -184,6 +184,7 @@ npm run tauri dev
   (star to follow!)
 
 ### Phase 2: Model Support Enhancement 🧠
+- **More inference engines**
 - **Multimodal Models**: Vision and audio model support
 - **API Integration**: OpenAI, Anthropic, and other API providers so you can compare with cloud hosted models too.
 - **Context Optimization**: Persistent model loading for extended conversation
