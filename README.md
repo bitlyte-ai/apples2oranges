@@ -99,7 +99,7 @@ and charts that help you visualise relationships over time.
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/bitlyte/apples2oranges.git
+   git clone https://github.com/bitlyte-ai/apples2oranges.git
    cd apples2oranges
    ```
 
