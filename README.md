@@ -12,6 +12,7 @@
 ### LLM Comparison Playground for Small Language Models and On-Device AI
 
 *Built by [bitlyte](https://bitlyte.ai) - Building dev tools for small language models and on-device AI*
+
 Join our [discord](https://discord.gg/qpy5KbqYg8): 
 ---
 
