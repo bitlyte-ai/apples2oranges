@@ -247,7 +247,7 @@ Regular contributors who demonstrate good judgment, technical skills, and alignm
 
 ### Get in Touch
 - **Email**: [hello@bitlyte.ai](mailto:hello@bitlyte.ai)
-- **X**: [@bitlyte](https://x.com/AntoineN76659)
+- **X**: https://x.com/AntoineN76659
 - **Company**: [bitlyte.ai](https://bitlyte.ai) - *Tools for small language models and on-device AI*
 
 ### Support the Project
