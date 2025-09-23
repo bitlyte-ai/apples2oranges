@@ -13,7 +13,7 @@
 
 *Built by [bitlyte](https://bitlyte.ai) - Building dev tools for small language models and on-device AI*
 
-Join our [discord](https://discord.gg/qpy5KbqYg8): 
+Join our [discord](https://discord.gg/qpy5KbqYg8)
 ---
 
 ## ✨ Intro
