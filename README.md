@@ -249,8 +249,6 @@ Regular contributors who demonstrate good judgment, technical skills, and alignm
 - **Email**: [hello@bitlyte.ai](mailto:hello@bitlyte.ai)
 - **X**: [@bitlyte](https://x.com/AntoineN76659)
 - **Company**: [bitlyte.ai](https://bitlyte.ai) - *Tools for small language models and on-device AI*
-- **Issues**: [GitHub Issues](https://github.com/bitlyte/apples2oranges/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/bitlyte/apples2oranges/discussions)
 
 ### Support the Project
 - **⭐ Star the Repository**: Show your support and help others discover the project
